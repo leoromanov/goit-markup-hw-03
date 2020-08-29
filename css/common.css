@@ -10,13 +10,17 @@
 }
 
 .page-header {
-    color: var(--black-color: #000000)
-
+    color: var(--black-color: #000000);
+    border-bottom: 2px solid var(--border-color);
+    /* border-bottom-width: 3px;
+    border-style: solid;
+    border-color: var(--heading-color) */
 }
 
 .main-nav { display: flex;
     align-items: center;
     padding: 0;
+    
 }
 
 .site-nav {
