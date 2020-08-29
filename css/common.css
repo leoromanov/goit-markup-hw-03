@@ -59,10 +59,8 @@
 .site-nav .link:focus,
 .site-nav .link.current,
 .portfolio-item:hover,
-.portfolio-item:focus
-.contacts:hover,
-.contacts:focus
- {
+.portfolio-item:focus 
+{
     color: var(--accent-color)
 }
 
@@ -71,7 +69,7 @@
     padding-top: 32px;
     padding-bottom: 32px; 
 }
-.contacts { 
+/* .contacts { 
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -79,6 +77,19 @@
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
+} */
+.header-contacts {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+.header-contacts:hover,
+.header-contacts:focus {
+    color: var(--accent-color);
 }
 
 .logo { 
