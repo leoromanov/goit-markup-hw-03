@@ -125,7 +125,7 @@
 .footer-address { 
     color: var(--primary-bg-color);
     font-style: normal;
-    padding-bottom: 9px;
+    margin-bottom: 9px;
 }
 .footer-contacts {
     font-style: normal;
@@ -134,9 +134,12 @@
     line-height: 1.71px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 9px;
+    
 }
 
+.par {
+    margin-bottom: 9px;
+}
 .footer-contacts:last-child {
     margin: 0;
 }

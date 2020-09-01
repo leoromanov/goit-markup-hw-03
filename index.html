@@ -43,7 +43,8 @@
             </div>
         </section>
         <!-- Преимущества -->
-        <section class="advantage-section container">
+        <section class="advantage-section">
+            <div class="container">    
                 <h2 class="advantages hidden">Наши преимущества</h2>
                 <ul class="advantage-list">
                     <li class="list">
@@ -63,10 +64,11 @@
                         <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
+            </div>
         </section>
         <!-- Чем мы занимаемся -->
-        <section class="section container">
-            <!-- <div class="container"> -->
+        <section class="section">
+            <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="working">
                     <li class="list">
@@ -79,7 +81,7 @@
                         <img class="working-img" src="./images/чем_мы_занимаемся_3.png" alt="планшет в руке человека на дисплее палитра цветов" width="370" />
                     </li>
                 </ul>
-            <!-- </div> -->
+            </div>
         </section>
         <!-- Наша команда -->
         <section class="section team">
@@ -88,23 +90,31 @@
                 <ul class="ul">
                     <li class="list">
                         <img src="./images/human_1.jpg" alt="фото Игоря" width="270" />
-                        <h3 class="team-member">Игорь Демьяненко</h3>
-                        <p class="position">Product Designer</p>
+                        <div class="team-item">
+                            <h3 class="team-member">Игорь Демьяненко</h3>
+                            <p class="position">Product Designer</p>
+                        </div>
                     </li>
                     <li class="list">
                         <img src="./images/human_2.jpg" alt="фото Ольги" width="270" />
-                        <h3 class="team-member">Ольга Репина</h3>
-                        <p class="position">Frontend Developer</p>
+                        <div class="team-item">
+                            <h3 class="team-member">Ольга Репина</h3>
+                            <p class="position">Frontend Developer</p>
+                        </div>    
                     </li>
                     <li class="list">
                         <img src="./images/human_3.jpg" alt="фото Николая" width="270" />
-                        <h3 class="team-member">Николай Тарасов</h3>
-                        <p  class="position">Marketing</p>
+                        <div class="team-item">
+                            <h3 class="team-member">Николай Тарасов</h3>
+                            <p  class="position">Marketing</p>
+                        </div>
                     </li>
                     <li class="list">
                         <img src="./images/human_4.jpg" alt="фото Михаила" width="270" />
-                        <h3 class="team-member">Михаил Ермаков</h3>
-                        <p  class="position">UI Designer</p>
+                        <div class="team-item">
+                            <h3 class="team-member">Михаил Ермаков</h3>
+                            <p  class="position">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -116,8 +126,11 @@
             <a href="#head" lang="en" class="footer-logo">Web<span class="studio-wh">Studio</span></a>
             <address>
                 <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
-                <a href="mailto:info@example.com" class="footer-contacts">info@example.com</a><br />
-                <a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a>
+                <p class="par">
+                    <a href="mailto:info@example.com" class="footer-contacts">info@example.com</a>
+                </p>
+                    <a href="tel:+380991111111" class="footer-contacts">+38 099 111 11 11</a>
+                    
             </address>
         </div> 
     </footer>
